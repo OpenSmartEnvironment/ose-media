@@ -1,0 +1,23 @@
+{
+  "name": "ose-media",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Jan Snasel <snaselj@gmail.com>",
+  "description": "Open Smart Environment Media Player",
+  "contributors": [
+    {
+      "name": "Jan Snasel",
+      "email": "snaselj@gmail.com"
+    },
+    {
+      "name": "Fred Rooks",
+      "email": "fred@fredrooks.com"
+    }
+  ],
+  "main": "./lib/index",
+  "keywords": [
+    "open smart environment",
+    "media player"
+  ],
+  "license": "GPL-3.0+"
+}
