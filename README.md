@@ -12,6 +12,8 @@ of controlling these applications is contained in separate packages
   (currently DVBlast as DVB stramer, PulseAudio as audio backend
   and VLC as media player)
 
+See [bundle.media](http://opensmartenvironment.github.io/doc/modules/bundle.media.html) example application
+
 ## Status
 - Pre-alpha stage (insecure and buggy)
 - Unstable API
@@ -19,7 +21,8 @@ of controlling these applications is contained in separate packages
 - No test suite
 
 This is not yet a piece of download-and-use software. Its important
-to understand the basic principles covered by this documentation.
+to understand the basic principles covered by the
+[documentation](http://opensmartenvironment.github.io/doc/).
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
