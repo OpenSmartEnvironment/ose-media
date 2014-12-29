@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE Media content
+ * @caption Media content
  *
  * @readme
- * Provides files of OSE Media package to the browser.
+ * Provides files of Media package to the browser.
  *
  * @class media.content
  * @type singleton
