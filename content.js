@@ -23,7 +23,7 @@ function Init() {  // {{{2
   O.super.call(this);
 
   this.addModule('lib/index');
-  this.addModule('lib/item/gaia/listItem');
+  this.addModule('lib/item/gaia/list');
   this.addModule('lib/item/index');
   this.addModule('lib/player/gaia/common');
   this.addModule('lib/player/gaia/detail');
@@ -32,7 +32,7 @@ function Init() {  // {{{2
   this.addModule('lib/player/index');
   this.addModule('lib/player/volume');
   this.addModule('lib/player/playback');
-  this.addModule('lib/stream/gaia/listItem');
+  this.addModule('lib/stream/gaia/list');
   this.addModule('lib/stream/browser');
   this.addModule('lib/stream/index');
   this.addModule('lib/sources');
