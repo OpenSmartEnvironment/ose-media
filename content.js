@@ -29,6 +29,7 @@ function Init() {  // {{{2
   this.addModule('lib/player/gaia/detail');
   this.addModule('lib/player/gaia/side');
   this.addModule('lib/player/commands');
+  this.addModule('lib/player/dvb');
   this.addModule('lib/player/index');
   this.addModule('lib/player/volume');
   this.addModule('lib/player/playback');
