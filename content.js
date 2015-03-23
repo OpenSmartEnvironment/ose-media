@@ -35,7 +35,6 @@ function Init() {  // {{{2
   this.addModule('lib/stream/gaia/list');
   this.addModule('lib/stream/browser');
   this.addModule('lib/stream/index');
-  this.addModule('lib/sources');
 };
 
 // }}}1
