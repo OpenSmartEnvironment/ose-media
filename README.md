@@ -1,7 +1,25 @@
 # Open Smart Environment - Media
-This package is a part of the OSE suite.
-All packages can be found [on GitHub](https://github.com/opensmartenvironment/).
+The Media package implements a general media player into your
+environment. Together with other OSE packages (e.g. [ose-pa](http://opensmartenvironment.github.io/doc/#ose-pa),
+[ose-videolan](http://opensmartenvironment.github.io/doc/#ose-videolan) and [ose-dvb](http://opensmartenvironment.github.io/doc/#ose-dvb)), it can be used to create a
+multi-instance media application.
 
+See [Media player example](http://opensmartenvironment.github.io/doc/#mediaplayerexample).
+
+## Features
+- Media sources extended by other npm packages
+- Predefined media streams, files and playback history
+- Media playback using a configurable set of applications
+  (currently DVBlast as DVB stramer, PulseAudio as audio backend
+  and VLC as media player)
+
+## Important links
+This package is a part of the OSE suite. For more information, see the following links:
+- [Media documentation](http://opensmartenvironment.github.io/doc/#media)
+- [OSE suite documentation](http://opensmartenvironment.github.io/doc/)
+- [All packages](https://github.com/opensmartenvironment/)
+
+## About OSE
 <b>Open Smart Environment software is a suite for creating
 multi-instance applications that work as a single whole.</b><br>
 Imagine, for example, a personal mesh running on various devices
@@ -37,16 +55,6 @@ to understand the basic principles covered by the
 OSE has the following prerequisites:
 - Node.js (>0.10) running on Debian Jessie and Raspbian
 - Firefox 37 or newer with Web Components enabled
-
-## Package description
-The Media package implements a general media player into your
-environment. Together with other OSE packages (e.g. [ose-pa](http://opensmartenvironment.github.io/doc/#ose-pa),
-[ose-videolan](http://opensmartenvironment.github.io/doc/#ose-videolan) and [ose-dvb](http://opensmartenvironment.github.io/doc/#ose-dvb)), it can be used to create a
-multi-instance media application.
-
-See [Media player example](http://opensmartenvironment.github.io/doc/#mediaplayerexample).
-
-The documentation for "ose-media" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-media#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General
