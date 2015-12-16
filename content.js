@@ -1,6 +1,6 @@
 'use strict';
 
-var O = require('ose').object(module, Init, 'ose/lib/http/content');
+var O = require('ose').object(module, 'ose/lib/http/content');
 exports = O.init();
 
 /** Docs  {{{1
@@ -19,23 +19,18 @@ exports = O.init();
  */
 
 // Public {{{1
-function Init() {  // {{{2
-  O.super.call(this);
-
-  this.addModule('lib/index');
-  this.addModule('lib/item/gaia/list');
-  this.addModule('lib/item/index');
-  this.addModule('lib/player/gaia/common');
-  this.addModule('lib/player/gaia/detail');
-  this.addModule('lib/player/gaia/side');
-  this.addModule('lib/player/commands');
-  this.addModule('lib/player/dvb');
-  this.addModule('lib/player/index');
-  this.addModule('lib/player/volume');
-  this.addModule('lib/player/playback');
-  this.addModule('lib/stream/gaia/list');
-  this.addModule('lib/stream/browser');
-  this.addModule('lib/stream/index');
-};
+exports.addModule('lib/index');
+exports.addModule('lib/item/gaia/list');
+exports.addModule('lib/item/index');
+exports.addModule('lib/player/gaia/common');
+exports.addModule('lib/player/gaia/detail');
+exports.addModule('lib/player/gaia/side');
+exports.addModule('lib/player/commands');
+exports.addModule('lib/player/dvb');
+exports.addModule('lib/player/index');
+exports.addModule('lib/player/volume');
+exports.addModule('lib/player/playback');
+exports.addModule('lib/stream/gaia/list');
+exports.addModule('lib/stream/index');
 
 // }}}1
